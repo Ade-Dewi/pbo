@@ -33,5 +33,67 @@ public class Datapegawai {
         System .out.println("supaya naik pangkat");
     }
 
+    public int getId() {
+        return id;
+    }
 
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getNip() {
+        return nip;
+    }
+
+    public void setNip(String nip) {
+        this.nip = nip;
+    }
+
+    public String getNamalengkap() {
+        return namalengkap;
+    }
+
+    public void setNamalengkap(String namalengkap) {
+        this.namalengkap = namalengkap;
+    }
+
+    public String getNamapanggilan() {
+        return namapanggilan;
+    }
+
+    public void setNamapanggilan(String namapanggilan) {
+        this.namapanggilan = namapanggilan;
+    }
+
+    public Date getTanggallahir() {
+        return tanggallahir;
+    }
+
+    public void setTanggallahir(Date tanggallahir) {
+        this.tanggallahir = tanggallahir;
+    }
+
+    public String getJabatan() {
+        return jabatan;
+    }
+
+    public void setJabatan(String jabatan) {
+        this.jabatan = jabatan;
+    }
+
+    public int getTahunjabatan() {
+        return tahunjabatan;
+    }
+
+    public void setTahunjabatan(int tahunjabatan) {
+        this.tahunjabatan = tahunjabatan;
+    }
+
+    public String getPangkatterakhir() {
+        return pangkatterakhir;
+    }
+
+    public void setPangkatterakhir(String pangkatterakhir) {
+        this.pangkatterakhir = pangkatterakhir;
+    }
 }
